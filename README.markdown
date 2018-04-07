@@ -5,7 +5,7 @@
 
 This is an awesome user-friendlier drop-in replacement for the standard ```<select>``` with multiple attribute activated.
 
-# Update
+# Update by HongboZhou
 - 当使用键盘操作(↑/↓/空格)时将禁用mouseenter事件以防止冲突，当鼠标移动时重新启用鼠标事件；
 - 未选中的元素文字将变为灰色，选中的元素的文字将变为黑色；
 - Bug Fix：调用deselect_all时，会对被deselect的元素依次触发afterDeselect而不仅只触发一个元素的afterDeselect回调函数；
